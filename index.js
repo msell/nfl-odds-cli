@@ -16,7 +16,9 @@ async function getData() {
 
 getData()
     .then(data => {
-        for(const game of data.data){
+        games = data.data.filter(x => (x.total > 0)).sort(x => (x.home_spread))
+       
+        for(const game of games){
             const { away_short_name, home_short_name, home_spread} = game
             console.log(`${away_short_name} @ ${home_short_name} ${home_spread}`)
         }
