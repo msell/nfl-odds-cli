@@ -13,6 +13,7 @@
     "@std/esm": "^0.11.3",
     "axios": "^0.16.2",
     "babel-cli": "^6.26.0",
+    "cli-table2": "^0.2.0",
     "es6-promise": "^4.1.1",
     "isomorphic-fetch": "^2.2.1"
   },
