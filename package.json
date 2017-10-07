@@ -1,5 +1,5 @@
 {
-  "name": "nfl-odds-cligit remote add origin git@github.com:msell/nfl-odds-cli.git",
+  "name": "nfl-odds-cli",
   "version": "1.0.0",
   "description": "Get Odds for upcoming NFL games",
   "main": "index.js",
