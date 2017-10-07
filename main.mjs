@@ -1,6 +1,4 @@
-#!/usr/local/bin/node
-require('es6-promise').polyfill();
-require('isomorphic-fetch');
+import fetch from 'isomorphic-fetch';
 
 async function getData() {
     const res = await fetch('https://nfl-api.now.sh/api/nfl-odds')
@@ -10,7 +8,7 @@ async function getData() {
 
 getData()
     .then(data => {
-        games = data.filter(x => (x.total > 0)).sort(x => (x.home_spread))
+       const games = data.filter(x => (x.total > 0)).sort(x => (x.home_spread))
        
         for(const game of games){
             const { away_short_name, home_short_name, home_spread} = game
