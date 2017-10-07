@@ -1,21 +1,30 @@
 {
-  "name": "odds-cli",
+  "name": "nfl-odds-cligit remote add origin git@github.com:msell/nfl-odds-cli.git",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get Odds for upcoming NFL games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msell/nfl-odds-cli"
+  },
+  "bin": {
+    "nfl-odds": "index.js"
+  },
+  "keywords": [
+    "NFL",
+    "Odds",
+    "Spread",
+    "Gambling"
+  ],
+  "author": "Matt Sell",
   "license": "ISC",
   "dependencies": {
     "@std/esm": "^0.11.3",
-    "axios": "^0.16.2",
     "babel-cli": "^6.26.0",
     "cli-table2": "^0.2.0",
-    "es6-promise": "^4.1.1",
     "isomorphic-fetch": "^2.2.1"
-  },
-  "devDependencies": {}
+  }
 }
