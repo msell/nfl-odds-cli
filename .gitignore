@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+nfl-odds-cli
+nfl-odds-cli-linux
+nfl-odds-cli-macos
+nfl-odds-cli-win.exe

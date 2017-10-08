@@ -4,7 +4,7 @@
   "description": "Get Odds for upcoming NFL games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "package": "pkg . --targets latest-macos-x64"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,13 @@
   "bin": {
     "nfl-odds": "index.js"
   },
+  "engines" : { "node" : ">=8.5.0" },
   "keywords": [
     "NFL",
     "Odds",
     "Spread",
     "Gambling"
-  ],
+  ],  
   "author": "Matt Sell",
   "license": "ISC",
   "dependencies": {
