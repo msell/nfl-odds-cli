@@ -7,7 +7,7 @@
     "package": "pkg . --targets latest-macos-x64"
   },
   "pkg": {
-    "scripts": "./src/*.{js,mjs}"    
+    "scripts": "./src/*.{js,mjs}"
   },
   "repository": {
     "type": "git",
@@ -16,13 +16,15 @@
   "bin": {
     "nfl-odds": "./src/index.js"
   },
-  "engines" : { "node" : ">=8.5.0" },
+  "engines": {
+    "node": ">=8.5.0"
+  },
   "keywords": [
     "NFL",
     "Odds",
     "Spread",
     "Gambling"
-  ],  
+  ],
   "author": "Matt Sell",
   "license": "ISC",
   "dependencies": {
