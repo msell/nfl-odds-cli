@@ -4,10 +4,10 @@
   "description": "Get Odds for upcoming NFL games",
   "main": "src/index.js",
   "scripts": {
-    "package": "pkg . --targets latest-macos-x64"
+    "package": "pkg . --experimental-modules --targets latest-macos-x64"
   },
   "pkg": {
-    "scripts": "./src/*.{js,mjs}"
+    "scripts": "./src/*.js"
   },
   "repository": {
     "type": "git",
