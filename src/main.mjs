@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-fetch';
-import Table from 'cli-table2'
+import Table from 'cli-table3'
 
 async function getData() {
     const res = await fetch('https://nfl-api.now.sh/api/nfl-odds')
